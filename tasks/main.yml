@@ -24,4 +24,3 @@
       ansible.builtin.yum:
         name: git
         state: present
-  notify: start_nginx
